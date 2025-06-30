@@ -42,13 +42,14 @@ python3 shortcut-creator.py
 ### Creating a Shortcut
 
 1. Click "Browse" to select your executable file (AppImage, script, etc.)
-2. (Optional) Select an icon file
-3. Enter the application name
-4. (Optional) Add a description
-5. Select appropriate categories
-6. Choose additional options:
+2. (Optional) Click "Browse" to select the interpreter for running your executable file, e.g. if using a venv
+3. (Optional) Select an icon file
+4. Enter the application name
+5. (Optional) Add a description
+6. Select appropriate categories
+7. Choose additional options:
    - Run in terminal (for CLI applications)
    - Copy to Desktop
-7. Click "Create Shortcut"
+8. Click "Create Shortcut"
 
 The shortcut will be created in `~/.local/share/applications/` and optionally on your desktop.
